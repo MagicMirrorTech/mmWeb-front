@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+
+.user-primary-color {
+  color: #4CA1FF;
+}
+
+.user-active-color {
+  color: #3C85D7;
+}
+
+.user-secondary-color {
+  color: #FF914C;
+}
+
+.user-secondaryS-color {
+  color: #FFEA4C;
+}
+
+.user-tertiary-color {
+  color: #94C0D4;
+}

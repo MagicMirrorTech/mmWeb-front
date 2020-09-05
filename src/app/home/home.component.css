@@ -1,0 +1,161 @@
+/*
+======
+Hero
+======
+ */
+
+.home {
+  padding: 5%;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.hero-text a {
+  background-color: #4CA1FF;
+  color: white;
+  width: 30%;
+  text-align: center;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 1px lightgray;
+}
+
+.hero-text a:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #3C85D7;
+  box-shadow: 0 0 10px 10px lightgray;
+}
+
+/*
+======
+Customers Love Us
+======
+ */
+
+ .customer-love {
+   text-align: center;
+ }
+
+.c-love-title {
+  font-size: 3em;
+  color: #FF914C;
+}
+
+.c-love-subtitle h1 {
+  font-size: .9em;
+  display: inline;
+}
+
+.customer-love-cards {
+  padding: 5%;
+  display: flex;
+}
+
+.customer-card {
+  padding: 4%;
+  margin: 1%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px lightgray;
+  width: 30%;
+}
+
+.customer-card em {
+  text-transform: uppercase;
+}
+
+
+/*
+======
+Why-Hand-Code
+======
+*/
+
+.why-hand-code {
+  margin: 0;
+  padding: 1%;
+  z-index: -1;
+}
+
+.why-hand-code img {
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  left: 0;
+}
+
+
+.why-hand-code-cards-container {
+  z-index: 5;
+  padding: 5%;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.why-hand-code-cards-container > h4 {
+  font-size: 2em;
+  margin-bottom: 3%;
+}
+
+.why-hand-code-cards-container > h1 {
+  font-size: 1em;
+}
+
+
+.why-hand-code-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+
+.why-hand-code-card {
+  border-radius: 20px;
+  padding: 3%;
+  box-shadow: 0 0 4px 2px lightgray;
+  width: 25%;
+  text-align: center;
+}
+
+.why-hand-code-cards-container > h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  width: 60%;
+  margin: auto;
+}
+
+/*
+======
+How It Works
+======
+*/
+
+.how-works {
+  margin: 3%;
+  padding: 3%;
+}
+
+
+/*
+======
+Hero
+======
+*/
+
+/*
+======
+Hero
+======
+*/
