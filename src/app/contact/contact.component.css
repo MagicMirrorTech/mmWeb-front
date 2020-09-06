@@ -1,0 +1,42 @@
+/*
+======
+Contact Us
+======
+*/
+
+
+.contact-us {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.contact-us > a {
+  margin: auto 1%;
+  color: #4CA1FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.contact-us-group h5 {
+  color: #FF914C;
+}
+
+
+.contact-us-group > a {
+  margin: 20px auto;
+  color: black;
+
+}
+
+
+.contact-us-social {
+  display: block;
+}
+
+.contact-us-social div {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
