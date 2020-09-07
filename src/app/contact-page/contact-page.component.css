@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.contact-page-container {
+  text-align: center;
+  margin: 5% 0;
+  width: 100%;
+}
+
+.contact-page-container h1 {
+  margin: 2% 0;
+}
+
+.contact-message {
+  display: grid;
+  grid-template-columns: auto 5% auto;
+  padding: 2% 0;
+}
+
+
+.contact-message-card {
+  grid-column: 3;
+  padding: 5%;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px lightgray;
+}
+
+.contact-message-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-message-card form input,
+.contact-message-card form textarea {
+  border: none;
+  padding: 3%;
+  box-shadow: 0 0 2px 2px lightgray;
+  margin-top: 4%;
+}
+
+.contact-message-card > * {
+  margin: auto;
+}
+
+
+.contact-message-card form button {
+  width: 30%;
+  padding: 3%;
+  margin-top: 2%;
+  background-color: #4CA1FF;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.4em;
+}
+
+.contact-message-card form button:hover {
+  background-color: #3C85D7;
+  box-shadow: 0 0 3px 3px #4CA1FF;
+  cursor: pointer;
+}

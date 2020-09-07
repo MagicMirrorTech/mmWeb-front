@@ -8,7 +8,8 @@ Contact Us
 .contact-us {
   display: flex;
   justify-content: space-around;
-  margin-top: 10%;
+  margin: 10%;
+  padding: 2% 0;
 }
 
 .contact-us > a {
@@ -27,7 +28,6 @@ Contact Us
 .contact-us-group > a {
   margin: 20px auto;
   color: black;
-
 }
 
 
@@ -38,5 +38,5 @@ Contact Us
 .contact-us-social div {
   display: flex;
   justify-content: space-around;
-  margin: 5% 0;
+  margin: 2% 0;
 }

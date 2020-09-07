@@ -5,7 +5,11 @@
 .plans-container h1 {
   color: #FF914C;
   font-size: 2em;
-  margin-bottom: 1%;
+}
+
+.plans-container h1,
+.plans-container p {
+  margin: 3%;
 }
 
 .plans-container-group {
@@ -14,14 +18,25 @@
   margin: auto;
 }
 
-.plans-card {
+#price-man {
+  position: absolute;
   width: 20%;
+  top: 90%;
+  z-index: -1;
+}
+
+.placeholder {
+  width: 45%;
+}
+
+.plans-card {
+  width: 50%;
   display: flex;
   flex-direction: column;
   padding: 3%;
   border-radius: 5px;
   box-shadow: 0 0 5px 5px lightgray;
-  margin: 2%;
+  margin: 1%;
   text-align: center;
 }
 
@@ -35,8 +50,7 @@
 
 .plans-card h5 {
   font-size: 2em;
-  color: #FF914C;
-;
+  color: #4CA1FF;
 }
 
 .plans-card button {
@@ -51,8 +65,8 @@
 }
 
 .plans-card button:hover {
-  color: #3C373E;
-  box-shadow: 0 0 2px 2px #3C373E;
+  color: #3C85D7;
+  box-shadow: 0 0 2px 2px #3C85D7;
   cursor: pointer;
 }
 
@@ -64,4 +78,63 @@
 .plans-card em {
   text-transform: lowercase;
   display: block;
+}
+
+
+
+/*
+======
+CTA Section
+======
+*/
+
+
+.cta-container {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.cta-container h2 {
+  font-size: 3em;
+  padding-top: 5%;
+}
+
+
+.cta-container > * {
+  margin: 2%;
+  color: white;
+}
+
+
+.cta-container img {
+  position: absolute;
+  object-fit: cover;
+  left: 0;
+  z-index: -1;
+  margin: 0;
+  width: 100%;
+  height: 400px;
+}
+
+.cta-container p {
+  text-transform: capitalize;
+}
+
+
+.cta-container button {
+  color: white;
+  background-color: #4CA1FF;
+  border: none;
+  padding: 2% 1%;
+  width: 25%;
+  font-size: 1.4em;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+
+.cta-container button:hover {
+  cursor: pointer;
+  background-color: #3C85D7;
+  box-shadow: 0 0 5px 5px #4CA1FF;
 }

@@ -18,6 +18,10 @@ Hero
   flex-direction: column;
 }
 
+.hero-text h1 {
+  font-size: 3em;
+}
+
 .hero-text > * {
   margin: 2% 0;
 }
@@ -28,7 +32,7 @@ Hero
   width: 50%;
   text-align: center;
   padding: 5%;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 4px 1px lightgray;
 }
 
@@ -37,6 +41,11 @@ Hero
   color: black;
   background-color: #3C85D7;
   box-shadow: 0 0 10px 10px lightgray;
+}
+
+.hero-text p {
+  line-height: 1.8em;
+  font-size: 1.2em;
 }
 
 /*
